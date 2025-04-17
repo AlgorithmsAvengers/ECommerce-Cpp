@@ -89,22 +89,21 @@ User screen with product listings, shopping cart access, and order history.
 
 ## ⚖️ Design Decisions
 
-| Feature                 | ✅ Pros                                              | ⚠️ Cons                                     |
+| Feature                  |   Pros                                               |    Cons                                      |
 |--------------------------|------------------------------------------------------|----------------------------------------------|
 | File-based persistence   | Simple, fast, and easy to debug                      | Not suitable for scaling to large data       |
 | Role-based system        | Clear separation of privileges                       | Requires more validation logic               |
-| Console-based UI         | Lightweight and accessible                          | Limited UX / no GUI                          |
+| Console-based UI         | Lightweight and accessible                           | Limited UX / no GUI                          |
 | Validation functions     | Prevent bad data and increase security               | Slightly more complex input logic            |
 | Linked list for products | Efficient dynamic memory usage                       | More overhead than vectors                   |
 
 ---
 
-## 🚀 Getting Started
 
 ### 📦 Prerequisites
 
-- ✅ C++ compiler (C++11 or later)
-- ✅ Console/terminal environment
+-  C++ compiler (C++11 or later)
+-  Console/terminal environment
 
 ### 🔮 Future Enhancements
 - 🛂 Role-based product filtering (VIP, discounted)
